@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:common": "webpack --config ./webpack.commont.js",
-    "postinstall": "npm install && npm run build:common"
+    "postinstall": "webpack --config ./webpack.commont.js"
   },
   "repository": {
     "type": "git",
@@ -17,14 +17,5 @@
   "bugs": {
     "url": "https://github.com/FFBest/my-npm-test/issues"
   },
-  "homepage": "https://github.com/FFBest/my-npm-test#readme",
-  "dependencies": {
-    "jquery": "^1.12.4",
-    "lodash": "^4.17.15"
-  },
-  "devDependencies": {
-    "expose-loader": "^1.0.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
-  }
+  "homepage": "https://github.com/FFBest/my-npm-test#readme"
 }
